@@ -33,3 +33,20 @@ var articles = [
     tag: ['html', 'css'],
   },
 ];
+
+//db.articles.insertMany(articles)
+
+//db.articles.find();
+
+//db.artciles.find({ "_id" : ObjectId("6133a1c6fe98eb364bafee2a")});
+
+//db.articles.find({"title" : "hicking"});
+
+//db.articles.find({"author.name":"rahul"})
+
+//db.articles.find({"tag: "html"})
+
+//db.users.find({gnder:Male""})
+//db.users.update({name:'Steve Ortega'},{$push:{sports:"golf"}})
+//db.users.find({sports:{$in:["football","criket"]}})
+//db.users.find({name:/ri/i})
