@@ -10,7 +10,7 @@ Write code to execute below expressions.
 var articles = [
   {
     title: 'Tracking',
-    Date: 12 / 14 / 2021,
+    Date: new Date(),
     details: 'all about tracking',
     author: {
       name: 'vikram',
@@ -21,7 +21,7 @@ var articles = [
   },
   {
     title: 'paragliding',
-    Date: 12 - 14 - 2021,
+    Date: new Date(),
     details: 'all about paragliding',
     author: {
       name: 'rahul',
@@ -32,7 +32,7 @@ var articles = [
   },
   {
     title: 'Tracking',
-    Date: 12 - 14 - 2021,
+    Date: new Date(),
     details: 'all about tracking',
     author: {
       name: 'vikram',
